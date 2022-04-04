@@ -245,8 +245,10 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
    <!--  Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" /> -->
-  <!-- <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />  -->
-  <Import Project="webapplicationtarget\Microsoft.WebApplication.targets" /> 
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" /> 
+  
+  <!-- <Import Project="webapplicationtarget\Microsoft.WebApplication.targets" />  -->
+
   <!-- <Import Project="webapplicationtarget\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" /> -->
 
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
