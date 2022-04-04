@@ -12,7 +12,7 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //ErrorMessage.Visible = false;
+            ErrorMessage.Visible = false;
         }
         protected void TextBox1_TextChanged(object sender, EventArgs e)
         {
@@ -41,7 +41,7 @@ namespace WebApplication1
                 }
                 else
                 {
-                    //ErrorMessage.Visible = true;
+                    ErrorMessage.Visible = true;
                 }
                 con.Close();
             }

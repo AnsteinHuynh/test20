@@ -15,7 +15,7 @@
         <br />
         <br />
         
-        <%--<asp:Label ID="ErrorMessage" runat="server" ForeColor ="red" Text="Incorrect user and/or password Login, Please try again."></asp:Label>--%>
+        <asp:Label ID="ErrorMessage" runat="server" ForeColor ="red" Text="Incorrect user and/or password Login, Please try again."></asp:Label>
         
 
         <br />
